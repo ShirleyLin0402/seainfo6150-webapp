@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
- <body>
  <head>
     <meta charset="UTF-8">
     <title>Title</title>
  </head>
- <main>
+  <body>
+   <main>
     <article>
         <header>
             <h1>The Status of Liberty's torch heads to new museum</h1>
@@ -83,5 +83,5 @@
         </ul>
     </article>
    </main>
- </body>
+  </body>
 </html>
