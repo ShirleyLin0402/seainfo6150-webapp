@@ -5,9 +5,7 @@
     <title>Title</title>
  </head>
   <body>
-   <main>
-    <article>
-        <header>
+      <header>
             <h1>The Status of Liberty's torch heads to new museum</h1>
             <address>
                 By Kate Farley (<a href="mailto:kate.farley@nytimes.com"
@@ -16,7 +14,9 @@
                 <time datetime="2018-11-22">November 22, 2018</time>
 
             </address>
-        </header>
+      </header>
+      <main>
+        <article>
         <p>
             The State of Liberty's original torch is getting a new home.
         </p>
