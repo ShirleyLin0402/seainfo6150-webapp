@@ -1,0 +1,26 @@
+section{
+  border: 1px solid FireBrick;
+  padding: 10px;
+  background: WHITESMOKE;
+}
+
+h2{
+  color: FireBrick;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+time{
+  font-weight: bold;
+  padding-bottom: 20px;
+  right: 0;
+  padding-right: 10px;
+}
+
+html{
+  font-size: 21px;
+  margin: 5px;
+}

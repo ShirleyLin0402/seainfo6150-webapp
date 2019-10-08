@@ -1,5 +1,7 @@
 import React from "react";
 import ArticleListItem from"./ArticleListItem.jsx"
+import  "./ArticleList.module.css"
+import PropTypes from 'prop-types';
 
 const ArticleList = props => {
   return (
@@ -10,6 +12,10 @@ const ArticleList = props => {
     ) )}
     </ul>
   );
+};
+
+ArticleList.propTypes = {
+  articles: PropTypes.array.isRequired
 };
 
 
