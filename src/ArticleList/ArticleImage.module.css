@@ -1,0 +1,14 @@
+img {
+    float: left;
+    margin-left:10px;
+		margin-right: 20px;
+
+	  width: 230px;
+    height: 130px;
+		margin-top: 10px;
+		margin-left: 10px;
+		margin-right: 20px;
+    border: 15px solid rgb(218, 10, 52);
+    border-radius: 50%;
+    box-shadow: 0 15px 10px 0px dimgray;
+  }

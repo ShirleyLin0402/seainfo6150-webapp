@@ -1,26 +1,41 @@
 section{
-  border: 1px solid FireBrick;
-  padding: 10px;
-  background: WHITESMOKE;
+  background-image: linear-gradient(to right,hsl(352,42%,53%), white 15%);;
+  writing-mode: horizontal-tb;
+  border: 1.5px solid rgb(213,0,0);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 10px 20px -10px black;
+
+  margin-top: -40px;
+  margin-bottom: 10px;
+
+  height:auto;
+
 }
 
 h2{
-  color: FireBrick;
+  color: rgb(204,25,0);
   font-size: 40px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-
+  margin-bottom: 0px;
 }
 
 
 time{
   font-weight: bold;
-  padding-bottom: 20px;
-  right: 0;
-  padding-right: 10px;
 }
 
-html{
-  font-size: 21px;
-  margin: 5px;
+div{
+  font-size:20px;
+  display: flex;
+  flex-wrap: wrap;
+
+
+
+
+
+
 }
