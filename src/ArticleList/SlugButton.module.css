@@ -1,11 +1,21 @@
 button{
+  justify-content: center;
+  width:300px;
+
+
   background: rgb(203,14,0);
   color: white;
   float: right;
   font-size: 20px;
-  padding: 10px 60px;
+  padding: 10px 40px;
   border-radius: 10px;
   position: relative;
-  border:none;
+  border:1.5px solid white;
+  top:30px;
+  overflow: hidden;
+
+
+  justify-content: center;
+  //grid-template-columns: 10px;
 
 }

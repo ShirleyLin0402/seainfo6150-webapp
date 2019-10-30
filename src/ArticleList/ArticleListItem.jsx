@@ -1,43 +1,34 @@
 import React from 'react';
-import './ArticleListItem.module.css';
+import css from './ArticleListItem.module.css';
 import SlugButton from './SlugButton.jsx';
 import ArticleImage from './ArticleImage.jsx'
 import PropTypes from 'prop-types';
 
+
 const ArticleListItem = props =>(
-<ul>
-      <ul>
-         {<ArticleImage article ={props.article}/>}
-
-      </ul>
-      <section>
-         <h2 >{props.article.title}</h2>
-
-         <div>
+<div className={css.container}>
 
 
-         <p>
 
-         {props.article.shortText}
-        </p>
-        
+<p>
+<ArticleImage article = {props.article}/>
 
-         <time dateTime = {props.article.pubYear}>{props.article.pubDate}
-         </time>
+</p>
+<br></br>
 
-         </div>
+   <h2 class = "h2">{props.article.title}</h2>
+   <p>{props.article.shortText}</p>
+   <time dateTime = {props.article.pubDate}>{props.article.pubDate}</time>
 
-         <p>
-         {<SlugButton article ={props.article} />}
-         </p>
-         <br></br>
-         <br></br>
-     </section>
-</ul>
-  )
+<SlugButton article = {props.article}/>
 
+
+
+</div>
+
+);
   ArticleListItem.propTypes = {
-    article: PropTypes.array.isRequired
+    articles: PropTypes.array.isRequired
 
   };
 

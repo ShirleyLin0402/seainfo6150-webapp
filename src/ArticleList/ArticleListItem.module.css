@@ -1,41 +1,30 @@
-section{
-  background-image: linear-gradient(to right,hsl(352,42%,53%), white 15%);;
-  writing-mode: horizontal-tb;
-  border: 1.5px solid rgb(213,0,0);
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-
-  border-radius: 10px;
-
-  box-shadow: 0 10px 20px -10px black;
-
-  margin-top: -40px;
-  margin-bottom: 10px;
-
-  height:auto;
-
-}
-
 h2{
   color: rgb(204,25,0);
-  font-size: 40px;
-  margin-bottom: 0px;
+  font-size: 30px;
+  //margin-bottom: 0px;
 }
 
 
 time{
   font-weight: bold;
+
 }
 
 div{
-  font-size:20px;
-  display: flex;
-  flex-wrap: wrap;
 
+  display: inline-grid;
+}
 
+html{
+  //justify-content: center;
 
+}
 
-
-
+.container{
+  display:flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  font-size:15px;
+  align-items: stretch;
+  min-height: 100%;
 }

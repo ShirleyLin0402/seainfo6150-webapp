@@ -9,7 +9,8 @@ const ArticleList = props => {
     {props.articles.map(article =>(
       <li key={article.slug}>
       {<ArticleListItem article ={article}/>}</li>
-    ) )}
+    )
+   )}
     </ul>
   );
 };
