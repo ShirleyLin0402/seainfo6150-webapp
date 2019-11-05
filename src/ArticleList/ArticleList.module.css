@@ -49,7 +49,7 @@ ul{
   align-content: stretch;
   display:grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(9,580px);
+  /*grid-template-rows: repeat(9,580px);*/
   grid-column-gap: 25px;
 
 
@@ -79,3 +79,40 @@ button{
   //grid-template-columns: 10px;
 
 }
+
+@media screen and (min-width:300px){
+  ul{
+
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (min-width:600px){
+  ul{
+
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media screen and (min-width:1000px){
+  ul{
+
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+/*@media screen and (max-width:1000px) and (min-width:750px) {
+  ul{
+
+    grid-template-columns: repeat(3,32%);
+  }
+
+}
+
+@media (min-width:1000px) {
+  ul{
+
+    grid-template-columns: repeat(4,24%);
+  }
+
+}*/
